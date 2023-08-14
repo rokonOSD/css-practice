@@ -1,5 +1,16 @@
 
+p{
+    color: red;
+
+}
+
 .name{
-    border: 1px;
+    color: orange;
     
+}
+h1{
+    color: green;
+}
+#para{
+    color: red;
 }

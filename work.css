@@ -1,0 +1,14 @@
+#section1{
+    background-color: green;
+}
+
+#section1 p{
+    color: pink;
+}
+.style1{
+    color: orange;
+}
+.style2{
+    font-size: 110px;
+
+}
