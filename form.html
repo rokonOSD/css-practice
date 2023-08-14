@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <form>
+        <div>
+            <label for="FullName">FullName:</label> <input type="fullname" name = "FullName" id="FullName" required >
+        </div><br>
+
+        <div>
+            <label for="Email">Email:</label> <input type="email" name = "email" id="email">
+        </div><br>
+
+        <div>
+            <label for="password">password:</label> <input type="password" name = "password" id="password">
+        </div><br>
+
+        <div>
+            <label for="date">Date of bath:</label>
+             <input type="date" name = "date">
+        </div> <br>
+
+        <div>
+            <label for="photo">choose your photo : </label>
+            <input type="file" name="photo" id="photo">
+        </div> <br>
+
+        <div>
+            <label for="gender"> Gender : </label>
+             <input type="radio"  id="gender" value="Male"> Male 
+             <input type="radio"  id="gender" value="female"> female
+
+        </div><br>
+
+        <div>
+            <label for="Religion"> Religion : </label>
+             <input type="checkbox" name="ci" id="Muslim" value="islam"> Islam
+              <input type="checkbox" name="ci"  id="hindu" value="hindu"> Hindu
+
+        </div><br>
+
+        <div>
+            <label for= Department> Department : </label>
+            <select>
+                <option value="cse" >CSE</option>
+                <option value="llb" selected>LLB</option>
+                <option value="eee">EEE</option>
+                <option value="cst">CST</option>
+                
+            </select>
+
+        </div><br>
+
+        <div>
+            <label for="Message"> Message : </label><br>
+            <textarea cols="20" rows="30"></textarea>
+            
+        </div><br>
+
+        <div>
+            <input type="submit" value="Register" >
+            <input type="reset" value="clear">
+        </div>
+
+        
+
+    </form>
+    
+</body>
+</html>
